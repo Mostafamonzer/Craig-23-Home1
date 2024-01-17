@@ -1,0 +1,254 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+   
+}
+ 
+
+
+/* ----------------- Start Home  -----------*/
+.main-header{
+    background-image: url(../images/Mask\ group.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%  
+}
+.main-header img{
+    padding-top: 70px;
+}
+.parag-main1{
+    font-family: Poppins ;
+    font-weight: 400;
+    font-size: 32px;
+    color: #8D99AE;
+    line-height: 47px;
+    letter-spacing: 7px;
+}
+.main-header h1{
+    font-family: Poppins ;
+    font-weight: 800;
+    font-size: 128px;
+    color: #FFFFFF;
+    line-height: 47px;
+    letter-spacing: 7px;
+    
+}
+.parag-main2{
+    font-family: Sora;
+    font-weight: 700;
+    font-size: 43px;
+    color:#FBD027;
+    line-height: 47px;
+    letter-spacing: 7px;
+}
+
+/* ----------------- End Home-----------*/
+/* ----------------- Start Is-----------*/
+.Sec-is{
+    padding-top: 70px;
+}
+.is-cont h2{
+    font-family: Sora;
+    font-weight: 800;
+    font-size: 48px;
+    color:#000000;
+    line-height: 60px;
+    max-width: 400px;
+
+}
+.is-cont p , .Sec-why p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 21px;
+    color:#525252;
+    line-height: 30px;
+    max-width: 480px;
+}
+/* ----------------- End Is-----------*/
+/* ----------------- Start Why-----------*/
+.Sec-why{
+    background-image: url(../images/Image\ Placeholder.png);
+    background-size: cover;
+    background-position: center;
+}
+.Sec-why h2{
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 48px;
+    color:#000000;
+    line-height: 55px;
+    max-width: 500px;
+    padding-top: 30px;
+}
+
+/* ----------------- End Why-----------*/
+/* ----------------- Start Expert-----------*/
+.Sec-Expert{
+    background-image: url(../images/Group\ 87.png);
+    background-size: cover;
+    background-position: center;
+}
+.Sec-Expert h3{
+    font-family: Sora;
+    font-weight: 400;
+    font-size: 48px;
+    color:#FFFFFF;
+    line-height: 60px;
+}
+.Sec-Expert p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 21px;
+    color:#FFFFFF;
+    line-height: 30px;
+    max-width: 1020px;
+    padding-left: 200px;
+}
+
+/* ----------------- End Expert-----------*/
+/* ----------------- Start Is2-----------*/
+
+.is2-cont h2{
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 48px;
+    color:#000000;
+    line-height: 60px;
+   
+
+}
+.is2-cont  {
+    margin-left: 30px;
+    margin-top: 28px;
+}
+.is2-cont p  {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 21px;
+    color:#525252;
+    line-height: 30px;
+    max-width: 480px;
+}
+/* ----------------- End Is2-----------*/
+/* ----------------- End what-----------*/
+.Sec-what{
+        background-image: url(../images/Image\ Placeholder.png);
+        background-size: cover;
+        background-position: center;
+        padding-top: 20px;
+}
+.Sec-what h2{
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 48px;
+    color:#000000;
+    line-height: 60px;
+    max-width: 850px;
+    margin-left: 150px;
+}
+.Sec-what p{
+    max-width: 300px;
+    margin-left: 15px;
+}
+/* ----------------- End what-----------*/
+/* ----------------- Start WhatHapp-----------*/
+.WhatHapp{
+    padding-top: 30px;
+}
+.WhatHapp .Left-Happ{
+    margin-left: 20px;
+}
+.WhatHapp .Left-Happ h2{
+    font-family: Sora ;
+    font-weight: 600;
+    font-size: 48px;
+    color:#000000;
+    line-height: 60px;
+    max-width: 500px;
+   
+}
+.WhatHapp .Left-Happ p  {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 21px;
+    color:#525252;
+    line-height: 30px;
+    max-width: 485px;
+}
+/* ----------------- End WhatHapp-----------*/
+/* ----------------- Start Q -----------*/
+.Ques{
+    background-image: url(../images/Image\ Placeholder.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.Ques h2{
+    font-family: Sora ;
+    font-weight: 600;
+    font-size: 48px;
+    color:#0E0401;
+    line-height: 60px;
+    text-transform: capitalize;
+    text-align: center;
+   
+}
+/* ----------------- End Q-----------*/
+/* ------@Media Quarey---------- */
+@media  (max-width: 1200px){
+    .main-header h1{
+        font-size: 100px; 
+  } 
+
+}
+
+@media  (max-width: 992px) {
+
+    .main-header h1{
+          font-size: 60px; 
+    } 
+
+    .Sec-Expert p{
+        padding-left: 0px;
+     
+    } 
+    .is2-cont ,.Sec-what h2{
+        margin-left: 0;
+        margin-top: 0px;
+    }
+    .Sec-what p{
+        max-width: none;
+        margin-left: 0px;
+    }
+    .WhatHapp .Left-Happ{
+        margin-left: 0px;
+    }
+    .Ques h2{
+        margin-left: 0px;
+        max-width: none;
+    }
+    section{
+        text-align: center;
+        padding-left: 0;
+        padding-top: 0 !important;
+    }
+    h2 ,h3 ,h1 ,p{
+        max-width: none !important;
+    }
+    h2 , h3{
+        font-size: 38px !important;
+    }
+    .Sec-why h2{
+        padding-top: 0px;
+    }
+    .Sec-is{
+        padding-top: 10px;
+    }
+    .Sec-what h2{
+        padding-top: 10px;
+    }
+}
